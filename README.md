@@ -1,15 +1,7 @@
 # Auto - G Power 
 
-This is a static website designed for advertisement purposes,providing information about a car repair shop.
+This is a static website designed for advertisement purposes, providing information about a car repair shop.
 The website includes details such as location, phone number, images, and more.
-
-## Table of Contents
-- [Website Link](#website-link)
-- [Project Overview](#project-overview)
-- [Usage](#usage)
-- [Built With](#built-with)
-- [Contributing](#contributing)
-- [Acknowledgements](#acknowledgements)
 
 ## Website Link 
 
