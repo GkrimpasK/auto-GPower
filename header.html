@@ -1,0 +1,76 @@
+<meta name="description" content="Επίσημη ιστοσελίδα του εξειδικευμένου συνεργείου (BMW / Mini) G Power της Κοζάνης">
+
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <div class="container-fluid">
+
+    <div class="navbar-brand">
+      <a href="./index.html">
+        <picture>
+          <source type="image/webp" srcset="./images/logo.webp">
+          <source type="image/png" srcset="./images/logo.png">
+          <img id="logo" src="./images/logo.png" alt="Logo">
+        </picture>
+      </a>
+    </div>
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-but" title="Menu">
+      <span class="toggler-icon top-bar"></span>
+      <span class="toggler-icon middle-bar"></span>
+      <span class="toggler-icon bottom-bar"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav-but">
+      <ul class="navbar-nav me-auto d-flex" id="navbar-items">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html" id="Home">
+            • Αρχική
+          </a>
+        </li>
+	      <li class="nav-item">
+          <a class="nav-link" href="./information.html" id="Info">
+            • Πληροφορίες
+          </a>
+        </li>
+		    <li class="nav-item">
+          <a class="nav-link" href="./services.html" id="Services">
+            • Παροχή Υπηρεσιών
+          </a>
+        </li>
+        <div class="li flex-container">
+          <ul>
+            <li class="nav-item">
+              <div class="nav-link" id="Notifications">
+                  <button class="openbtn" onclick="openNav()"><em class="fa-solid fa-bell" title="Notification"></em></button>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div id="mySidebar" class="sidebar">
+          <em class="closebtn" onclick="closeNav()">&#8249;</em>
+          <div class="notifications-cont">
+            <h2> Δεν υπάρχουν ενημερώσεις. </h2>
+          </div>
+        <div id="overlay" onclick="closeNav()"></div>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  function overlay(isShow){
+    var elm = document.getElementById('overlay')
+    if (isShow) {
+      elm.style.display = 'block';
+    } else {
+      elm.style.display = 'none';
+    }
+  }
+  function openNav() {
+    overlay(true);
+      document.getElementById("mySidebar").style.width = "250px";
+    }
+          
+    function closeNav() {
+    overlay(false);
+      document.getElementById("mySidebar").style.width = "0";
+    }
+</script>
