@@ -5,7 +5,7 @@ The website includes details such as location, phone number, images, and more.
 
 ## Website Link 
 
-[auto-gpower](https://gkrimpask.github.io/auto-gpower/) 
+[auto-gpower](https://gkrimpask.github.io/auto-GPower/) 
 
 ## Project Overview
 
