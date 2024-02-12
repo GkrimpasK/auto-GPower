@@ -356,6 +356,7 @@ section{
   top: 0;
   left: 0;
   background-image: url("../images/Background.jpg");
+  background-color: #141414;	
   z-index: 210;
 }
 
