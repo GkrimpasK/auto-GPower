@@ -289,10 +289,25 @@
     
         document.documentElement.scrollTop = 0;
     }
+     
+    $("section").hide();
+
+    $("#header").hide();
+
+    $("#footer").hide();
+
 
     $(window).on("load",function(){
-      $(".loader-wrapper").fadeOut("slow");
-      $("body")[0].classList.remove("hide-overflow");
+
+        $("section").fadeIn("slow");
+
+        $("#header").fadeIn("slow");
+
+        $("#footer").fadeIn("slow");
+
+        $(".loader-wrapper").fadeOut("slow");
+        $("body")[0].classList.remove("hide-overflow");
+
     });
 
 </script>
